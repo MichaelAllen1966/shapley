@@ -1,0 +1,16 @@
+name: shapley
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3.8
+  - scikit-learn
+  - scipy
+  - tensorflow-gpu=2.2.0
+  - pip:
+    - shap
