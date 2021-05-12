@@ -12,5 +12,6 @@ dependencies:
   - scikit-learn
   - scipy
   - tensorflow-gpu=2.2.0
+  - xgboost=1.3.3
   - pip:
     - shap
